@@ -2,7 +2,7 @@
   <div class="menu-overlay" :class="{ 'menu-open': isMenuOpen }">
     <div class="menu-content">
       <div class="menu-header">
-        <h2 class="menu-title">Menú</h2>
+        <img src="../assets/galicia/g.png" alt="Logo de Galicia Abogados" class="menu-logo" style="width:90px;margin-bottom: 10px; margin-top:0px">
         <button class="close-button" @click="closeMenu">×</button>
       </div>
 
@@ -109,7 +109,7 @@ export default {
   top: 0;
   position: fixed;
   background-color: #ffc629;
-  padding: 0.7em;
+  padding: 2.7em;
   z-index: 11;
   
   @media (max-width: 768px) {
