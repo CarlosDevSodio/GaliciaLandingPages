@@ -21,18 +21,18 @@
           Es
         </button>
       </div>
-      <MobileMenu ref="mobileMenu" />
+      <Menu ref="mobileMenu" />
     </nav>
   </template>
   
   <script>
   import { ref, onMounted } from "vue";
-  import MobileMenu from "./MobileMenu.vue";
+  import Menu from "./Menu.vue";
   
   export default {
     name: "LanguageNavbar",
     components: {
-      MobileMenu
+      Menu
     },
     setup() {
       const mobileMenu = ref(null);
