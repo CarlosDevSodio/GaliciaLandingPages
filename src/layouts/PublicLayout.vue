@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import LanguageNavbar from "../components/navbar.vue";
+import LanguageNavbar from "../components/Navbar.vue";
 import { defineComponent } from "vue";
 
 export default defineComponent({

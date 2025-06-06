@@ -1,5 +1,5 @@
 import HomeView from "@/modules/public/views/HomeView.vue";
-
+import ApolloView from "@/modules/public/views/ApolloView.vue";
 
 export default [
   {
@@ -15,6 +15,14 @@ export default [
         component: HomeView,
         meta: {
           title: "Landing Page",
+        },
+      },
+      {
+        path: "apollo",
+        name: "apollo",
+        component: ApolloView,
+        meta: {
+          title: "Apollo",
         },
       },
     ],

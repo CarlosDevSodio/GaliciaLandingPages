@@ -1,6 +1,6 @@
 <template>
   <div class="menu-overlay" :class="{ 'menu-open': isMenuOpen }">
-    <div class="menu-content">
+    <div class="menu-content" :class="{ 'slide-out': !isMenuOpen }">
       <div class="menu-header">
         <img src="../assets/galicia/g.png" alt="Logo de Galicia Abogados" class="menu-logo" style="width:90px;margin-bottom: 10px; margin-top:0px">
         <button class="close-button" @click="closeMenu">×</button>
@@ -111,12 +111,41 @@ export default {
   background-color: #ffc629;
   padding: 2.7em;
   z-index: 11;
+  animation: slideIn 0.5s ease-out forwards;
   
   @media (max-width: 768px) {
     width: 80%;
   }
-
 }
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.menu-content.slide-out {
+  animation: slideOut 0.5s ease-in forwards;
+}
+
+@keyframes slideOut {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  
+}
+
+
 
 .menu-header {
   display: flex;
@@ -154,13 +183,14 @@ export default {
   color: #000;
   text-decoration: none;
   font-size: 1.1rem;
+  line-height: 0.1rem;
   display: block;
   padding: 8px 0;
-  transition: color 0.3s;
+  font-family: 'Gelasio', serif;
 }
 
 .menu-items a:hover {
-  color: #ffd700;
+  font-size: 1.6rem;
 }
 
 .social-icons {
@@ -185,9 +215,6 @@ export default {
   font-size: 0.8em;
   margin-left: 5px;
 }
-
-/* Import Font Awesome */
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
 
 /*Ocultar o mostrar el componente según el tamaño de la pantalla */
 @media (min-width: 768px) {

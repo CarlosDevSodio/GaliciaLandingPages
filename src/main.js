@@ -13,6 +13,7 @@ import { aliases, mdi } from "vuetify/iconsets/mdi";
 import "@mdi/font/css/materialdesignicons.css";
 import "@/styles/fonts.css";
 import "@/styles/installed-fonts.css";
+import "@/styles/colors.css"
 
 const vuetify = createVuetify({
   components,
