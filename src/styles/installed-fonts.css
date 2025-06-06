@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'FiraSans';
+    src: url('../assets/fonts/FiraSans-Black.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-BlackItalic.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-Bold.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-BoldItalic.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-ExtraBold.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-ExtraBoldItalic.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-ExtraLight.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-ExtraLightItalic.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-Italic.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-Light.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-LightItalic.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-Medium.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-MediumItalic.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-Regular.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-SemiBold.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-SemiBoldItalic.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-Thin.ttf') format('opentype'),
+            url('../assets/fonts/FiraSans-ThinItalic.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Gelasio';
+    src: url('../assets/fonts/Gelasio-Italic-VariableFont_wght.ttf') format('opentype'),
+         url('../assets/fonts/Gelasio-VariableFont_wght.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';  /* Ensure the font-family matches the one used in your HTML */
+    src: url('../assets/fonts/Montserrat-Italic-VariableFont_wght.ttf') format('opentype'),
+         url('../assets/fonts/Montserrat-VariableFont_wght.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../assets/fonts/Mulish-Italic-VariableFont_wght.ttf') format('opentype'),
+         url('../assets/fonts/Mulish-VariableFont_wght.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Signerica';
+    src: url('../assets/fonts/SignericaFat.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -12,6 +12,7 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import { aliases, mdi } from "vuetify/iconsets/mdi";
 import "@mdi/font/css/materialdesignicons.css";
 import "@/styles/fonts.css";
+import "@/styles/installed-fonts.css";
 
 const vuetify = createVuetify({
   components,

@@ -5,14 +5,13 @@ import {
 import { h, resolveComponent } from 'vue';
 import publicRoutes from './public-routes';
 import NotFound from '@/modules/public/error-views/NotFound.vue';
-import Galery from '../components/galery/Galery.vue';
 
 
 const routes = [
   {
     path: '',
     redirect: '/home',
-    
+
   },
   {
     path: '/',
@@ -27,11 +26,6 @@ const routes = [
         return { ...route };
       }),
     ]
-  },
-    {
-    path: '/galery',
-    name: 'galery',
-    component: Galery
   },
   {
     path: '/:pathMatch(.*)*',
