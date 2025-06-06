@@ -1,15 +1,18 @@
 <template>
     <div class="public-layout">
+      <LanguageNavbar />
       <router-view />
     </div>
   </template>
   
   <script>
+    import LanguageNavbar from '../components/navbar.vue';
   import { defineComponent } from 'vue';
   
   export default defineComponent({
     name: "PublicLayout",
     components: {
+      LanguageNavbar
     },
     data() {
       return {
