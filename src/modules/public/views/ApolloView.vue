@@ -12,7 +12,7 @@
         </v-col>
       </v-row>
 
-      <v-row justify="center" class="content2" style="height: 70vh;">
+      <v-row justify="center" class="content2" style="height: 80vh;">
         <v-col cols="10" md="8" class="d-flex flex-column align-center">
           <p>
             At <strong>Galicia</strong>, we have integrated a unique legal service offering within the Mexican and Latin American markets that has allowed us to build strong, differentiated and close long-term relations with high-profile, high-demand, sophisticated clients.
@@ -28,6 +28,13 @@
         <v-col cols="12">
           <p>Leveraging deep industry insight, strategic positioning, and proven strength in key practice areas aligned with Apollo's objectives, we are uniquely positioned to add value and support the success of its upcoming ventures in Mexico.</p>
         </v-col>
+      </v-row>
+
+      <v-row class="white-zone" style="height: 100px; background-color: #f7f7f7;">
+        <v-col cols="12">
+          <p style="color: #121212; font-weight: bold; font-size: 1.2rem; text-align: center;">As Mexico's leading firm, Galicia is committed to being the best alternative for clients looking for industry-focused, pragmatic legal services by means of our robust practice area offering, always working in a coordinated manner and teams of experts focused on strategic sectors: Energy, Infrastructure, Financial, Health, Private Equity, Real Estate and Regulated Industries</p>
+        </v-col>
+
       </v-row>
 
     </v-container>
